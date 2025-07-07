@@ -1,7 +1,4 @@
-html {
-  background-color: skyblue;
-  background-size: cover;
-}
+html {}
 
 body {
   padding: 0 24px;
@@ -13,25 +10,13 @@ body {
 }
 
 p {
-  color: green;
   font-size: 20px;
 }
 
-h1 {
-  color: green;
-  font-size: 50px;
-}
+h1 {font-size: 50px;}
 
-h2 {color: green;}
 
-h3 {
-  color: green;
-  font-size: 14px;
-}
-
-ul {color: green;}
-
-li {color: green;}
+h3 {font-size: 30px;}
 
 button {
   background-color: green;
