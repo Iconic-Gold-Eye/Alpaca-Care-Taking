@@ -21,18 +21,15 @@ h1 {
   color: green;
   font-size: 50px;
 }
-h2 {
-  color: green;
-}
-h3 {
-  color: green;
-}
-ul {
-  color: green;
-}
-li {
-  color: green;
-}
+
+h2 {color: green;}
+
+h3 {color: green;}
+
+ul {color: green;}
+
+li {color: green;}
+
 button {
   background-color: green;
   color: white;
@@ -40,3 +37,14 @@ button {
   font-size: 30px;
 }
 
+::-webkit-scrollbar {width: 10px;}
+
+::-webkit-scrollbar-track {background: #f1f1f1;}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(199, 218, 199);
+  border: 2px solid green;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {background: whitesmoke;}
