@@ -24,7 +24,10 @@ h1 {
 
 h2 {color: green;}
 
-h3 {color: green;}
+h3 {
+  color: green;
+  font-size: 14px;
+}
 
 ul {color: green;}
 
