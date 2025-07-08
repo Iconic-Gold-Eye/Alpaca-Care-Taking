@@ -20,7 +20,7 @@ button {
   background-color: green;
   color: white;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 12px;
 }
 
 ::-webkit-scrollbar {width: 10px;}
