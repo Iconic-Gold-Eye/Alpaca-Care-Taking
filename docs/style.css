@@ -1,4 +1,6 @@
-html {}
+html {
+  background-color: white;
+}
 
 body {
   padding: 0 24px;
