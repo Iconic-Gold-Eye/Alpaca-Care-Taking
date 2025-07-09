@@ -5,4 +5,5 @@
 <h1> Comments </h1>
 <p> index.html and style.css have all the comments needed to understand the code. </p>
 <a href="docs/index.html"> index.html </a>
+<br>
 <a href="docs/style.css"> style.css </a>
