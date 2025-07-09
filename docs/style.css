@@ -1,4 +1,4 @@
-html {background-color: skyblue;} /* Changes background color */
+html {background-color: cyan;} /* Changes background color */
 
 body {
   padding: 0 24px; /* Changes the padding to 24 pixels*/
@@ -36,10 +36,10 @@ button {
 }
 
 ::-webkit-scrollbar {width: 10px;} /* Edits scrollbar width */
-::-webkit-scrollbar-track {background: #f1f1f1;} /* Sets background color for scrollbar track to #f1f1f1 */
+::-webkit-scrollbar-track {background: orange;} /* Sets background color for scrollbar track to #f1f1f1 */
 ::-webkit-scrollbar-thumb {
   background: rgb(199, 218, 199); /* Sets background color */
-  border: 2px solid green; /* Edits border to be 2 pixels, styled as a solid, and colored green */
+  border: 2px solid yellow; /* Edits border to be 2 pixels, styled as a solid, and colored green */
   border-radius: 10px; /* Sets the radius of the border to 10 pixels */
 }
 ::-webkit-scrollbar-thumb:hover {background: whitesmoke;} /* Sets the background color of the scrollbar to "white smoke" when hovered over */
@@ -71,7 +71,7 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
+  color: black;
   background-color: rgba(0,0,0,0.4);
   padding: 20px;
   border-radius: 10px;
