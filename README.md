@@ -4,3 +4,5 @@
 <p> Updates will happen regularly, so expect sudden 404 errors because this is a work in progress. </p>
 <h1> Comments </h1>
 <p> index.html and style.css have all the comments needed to understand the code. </p>
+<a href="docs/index.html"> index.html </a>
+<a href="docs/style.css"> style.css </a>
