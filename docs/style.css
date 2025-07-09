@@ -19,8 +19,8 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 20px; /* adds spacing between doc and image */
-  flex-wrap: wrap; /* allows stacking on smaller screens */
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .reference-image {
