@@ -1,39 +1,32 @@
-html {background-color: skyblue;}
+html {background-color: skyblue;} /* Changes background color */
 
 body {
-  padding: 0 24px;
-  margin: 0;
-  height: 100vh;
-  color: black;
-  justify-content: center;
-  align-items: center;
+  padding: 0 24px; /* Changes the padding to 24 pixels*/
+  margin: 0; /* Changes margins to 0 */
+  height: 100vh; /* Changes height of body */
+  color: black; /* Turns text black */
+  justify-content: center; /* Changes how the browser distributes space in the code */
+  align-items: center; /* Aligns items to center */
 }
 
 .anatomical {
+  /* The "." changes the style target to a class. In this case, this defines a class named "anatomical"*/
   font-size: 25px;
   color: white;
   background-color:black;
 }
 
-.doc-image-row {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
 .reference-image {
-  width: 440px;
-  height: auto;
-  max-width: 100%;
-  object-fit: contain;
+  width: 440px; /* Determines the width  of the image */
+  height: auto; /* Allows the height to be set to default */
+  max-width: 100%; /*Allows for adjusting to different screen sizes */
+  object-fit: contain; /* Forces the object to fit within a container. */
 }
 
-p {font-size: 20px;}
-h1 {font-size: 50px;}
-h2{font-size: 30px;}
-h3 {font-size: 30px;}
+p {font-size: 20px;} /* Determines text size for the paragraph tag */
+h1 {font-size: 50px;} /* Determines text size for the header 1 tag */
+h2{font-size: 30px;} /* Determines text size for the header 2 tag */
+h3 {font-size: 30px;} /* Determines text size for the header 3 tag */
 
 button {
   background-color: green;
@@ -42,14 +35,14 @@ button {
   font-size: 12px;
 }
 
-::-webkit-scrollbar {width: 10px;}
-::-webkit-scrollbar-track {background: #f1f1f1;}
+::-webkit-scrollbar {width: 10px;} /* Edits scrollbar width */
+::-webkit-scrollbar-track {background: #f1f1f1;} /* Sets background color for scrollbar track to #f1f1f1 */
 ::-webkit-scrollbar-thumb {
-  background: rgb(199, 218, 199);
-  border: 2px solid green;
-  border-radius: 10px;
+  background: rgb(199, 218, 199); /* Sets background color */
+  border: 2px solid green; /* Edits border to be 2 pixels, styled as a solid, and colored green */
+  border-radius: 10px; /* Sets the radius of the border to 10 pixels */
 }
-::-webkit-scrollbar-thumb:hover {background: whitesmoke;}
+::-webkit-scrollbar-thumb:hover {background: whitesmoke;} /* Sets the background color of the scrollbar to "white smoke" when hovered over */
 
 .banner {
   width: 100%;
