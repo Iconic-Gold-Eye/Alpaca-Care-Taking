@@ -6,18 +6,21 @@
   <body>
     <h3> Anatomy </h3>
     <div class="anatomical">
-        <div popover id="muzzle"> Muzzle </div>
-        <div popover id="withers"> Withers </div>
-        <div popover id="pastern"> Pastern </div>
-        <div popover id="toenail"> Toenail </div>
-        <div popover id="Fetlock"> Fetlock </div>
-        <div popover id="Hock"> Hock </div>
-        <div popover id="pelvis"> Pelvis </div>
+        <div popover id="muzzle"> Muzzle </div> <!-- Makes the following text only appear when called by "popovertarget" -->
+        <div popover id="withers"> Withers </div> <!-- Makes the following text only appear when called by "popovertarget" -->
+        <div popover id="pastern"> Pastern </div> <!-- Makes the following text only appear when called by "popovertarget" -->
+        <div popover id="toenail"> Toenail </div> <!-- Makes the following text only appear when called by "popovertarget" -->
+        <div popover id="Fetlock"> Fetlock </div> <!-- Makes the following text only appear when called by "popovertarget" -->
+        <div popover id="Hock"> Hock </div> <!-- Makes the following text only appear when called by "popovertarget" -->
+        <div popover id="pelvis"> Pelvis </div> <!-- Makes the following text only appear when called by "popovertarget" -->
     </div>  
     <div style="position: relative; display: inline-block;">
         <img src="anatomy.png" width="500" height="500">
     </div>
     <button popovertarget="muzzle" style="position: absolute; top: 155px; left: 30px; width: 45px; height: 40px; cursor: pointer; background-color: rgba(0, 255, 0, 0.4); border: 2px solid; border-color: green; border-radius: 5px;"> </button>
+     <!-- "popovertarget" determines which popover it will affect. You put the corresponding popover id into the target to change it. style="position: absolute" removes
+    any effect on position the other elements would've had. Top, left, width, and height determine position and size. Cursor changes the cursor when hobered over, and
+    rgba is used to make the colors. Border determines the properties of the border. -->
     <button popovertarget="withers" style="position: absolute; top: 255px; left: 125px; width: 60px; height: 20px; cursor: pointer; background-color: rgba(0, 0, 255, 0.4); border: 2px solid; border-color: blue; border-radius: 5px;"> </button>
     <button popovertarget="pastern" style="position: absolute; top: 555px; left: 445px; width: 35px; height: 20px; cursor: pointer; background-color: rgba(255, 0, 0, 0.4); border: 2px solid; border-color: red; border-radius: 5px;"> </button>
     <button popovertarget="pastern" style="position: absolute; top: 555px; left: 375px; width: 35px; height: 20px; cursor: pointer; background-color: rgba(255, 0, 0, 0.4); border: 2px solid; border-color: red; border-radius: 5px;"> </button>
