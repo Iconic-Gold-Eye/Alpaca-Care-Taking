@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
 <body>
   <h3> Anatomy </h3>
-
   <!-- Info Boxes -->
   <div class="info hidden" id="muzzleInfo">Muzzle</div>
   <div class="info hidden" id="withersInfo">Withers</div>
@@ -31,17 +31,5 @@
   <br>
   <a href="index.html"><button>Home</button></a>
   <p>Click on the boxes to find out what part of the alpaca the box is highlighting!</p>
-  <script>
-    document.querySelectorAll("button[data-target]").forEach(button => {
-      button.addEventListener("click", () => {
-        const targetId = button.getAttribute("data-target");
-        document.querySelectorAll(".info").forEach(div => div.classList.add("hidden"));
-        const targetDiv = document.getElementById(targetId);
-        if (targetDiv) {
-          targetDiv.classList.remove("hidden");
-        }
-      });
-    });
-  </script>
 </body>
 </html>
