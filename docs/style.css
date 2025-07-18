@@ -93,3 +93,17 @@ button {
     box-shadow: none;
     }
 }
+
+.info {
+  position: absolute;
+  top: 620px;        /* You can adjust based on layout */
+  left: 50px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px;
+  z-index: 10;
+}
+
+.hidden {
+  display: none;
+}
